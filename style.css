@@ -1,0 +1,153 @@
+#font{
+   
+        font-family: 'Work Sans', sans-serif;
+      
+}
+
+.hero-background{
+    background-image: #fff6e7;
+    background: linear-gradient(300deg, #F8EDE3, #d7a99f, #D0B8A8);
+   background-size:full-width;
+    animation: gradient-animation 12s ease infinite;
+}
+.hero-background2{
+  background-image: #fff6e7;
+  background: linear-gradient(300deg, #F8EDE3, #f5ebef, #D0B8A8);
+ background-size:full-width;
+  animation: gradient-animation 12s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.img{
+    border-radius: 100%;
+}
+.nav-link {
+    color: white !important;
+}
+
+/* Ensure active link is also white */
+.nav-link {
+    color: white !important;
+}
+
+/* Ensure active link is also white */
+.nav-link.active {
+    background-color: #C5705D !important; /* Keep the dark background for active state */
+    color: white !important;
+}
+ul{
+  list-style-type: none;
+}
+.title-container {
+
+  margin-top: 10px;
+  height: 100vh;
+  
+  gap: 30px;
+}
+
+ body , header {
+  margin: -15px !important;
+  padding: 0 !important;;
+}
+.box{
+  
+
+  /* Set the width to 600px */
+  height:200px; /* Set the height to 600px */
+  padding: 20px; /* Add some padding inside the box */
+  text-align: center; /* Center the text */
+  border: 1px solid #ccc; /* Optional: add a border */
+  background-color: #f9f9f9; /* Optional: add a background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+  border-radius: 10px; /* Optional: add rounded corners */
+  padding-top: 15px;
+ 
+  
+}
+.aboutme{
+  flex-direction: column;
+  flex: 1 1 0;
+}
+.about{
+  justify-content: center;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.flexy2{
+  display: flex;
+  gap: 20px;
+  justify-content:center;
+  align-items: center;
+  
+}
+
+.imgf{
+  margin-top: 20px;
+  height: 200px;
+  
+}
+
+#aboutme{
+  height: 100vh;
+}
+
+.contact-me{
+  text-align: center;
+}
+
+
+
+#home {
+  position: relative;
+}
+
+@media(min-width:768px){
+  .box{
+    width: 700px;
+
+ 
+  }
+  .imgf{
+    width: 200px;
+  }
+
+
+}
+@media (max-width: 768px) {
+  .row {
+    text-align: center;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .display-5 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .lead {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+  .kamand{
+    margin-left: 70px;
+    height: 350px;
+  }
+  
+
+}
+
+
