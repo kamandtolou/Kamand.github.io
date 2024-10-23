@@ -100,6 +100,16 @@ ul{
   
 }
 
+.more-projects{
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.more{
+  text-align: center;
+}
+
 #aboutme{
   height: 100vh;
 }
@@ -113,6 +123,7 @@ ul{
 #home {
   position: relative;
 }
+
 
 @media(min-width:768px){
   .box{
